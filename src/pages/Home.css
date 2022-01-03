@@ -1,0 +1,41 @@
+.Home-header {
+  background: linear-gradient(
+    180deg,
+    #efc636 49.48%,
+    rgba(230, 191, 55, 0) 100%
+  );
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.Home {
+  margin: 0;
+  padding: 0;
+}
+
+.button-container {
+    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.Home-header-black-shade {
+  background: radial-gradient(
+    50% 34% at 50% 50%,
+    #010c0f 63.02%,
+    rgba(182, 177, 76, 0) 100%
+  );
+  position: relative;
+}
+
+.Home-header-logo {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    bottom: -2.2rem;
+}
